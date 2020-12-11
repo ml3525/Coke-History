@@ -1,35 +1,29 @@
 nav {
-  height: 50px; 
-  background: #BA0209;
+  height: 50px;
+  background: #ba0209;
   display: flex;
   justify-content: space-around;
-  
 }
 
-body{
-  font-family: 'Helvetica Neue', sans-serif;
-  background: #FBF2ED;
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background: #fbf2ed;
   color: black;
-  line-height: 1.3; 
-  text-align: center;  
+  line-height: 1.3;
+  text-align: center;
 }
-
-
 
 .logo {
-font-family: cheap-pine, sans-serif;
-font-weight: 400;
-font-style: normal;
-padding: 5px;
-color: #FBF2ED;
-
+  font-family: cheap-pine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 5px;
+  color: #fbf2ed;
 }
-
-
 
 nav ul {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   text-align: center;
 }
 
@@ -46,28 +40,27 @@ nav a {
   padding: 0 20px;
   line-height: 50px;
   /* text-transform: uppercase;*/
-  transition: background .5s;
+  transition: background 0.5s;
 }
 
 nav a:hover {
-  background: #F40009;
+  background: #f40009;
 }
 .photo {
   height: 100vh;
-background-image: url("https://assets.codepen.io/4985837/56c73adc2e526519008b8293.jpeg");
- background-size: cover;
+  background-image: url("https://assets.codepen.io/4985837/56c73adc2e526519008b8293.jpeg");
+  background-size: cover;
 }
 figcaption {
-  color: #F40009;
+  color: #f40009;
   text-align: left;
   padding: 10px;
-  
- 
 }
 
-body {
+.body {
   color: black;
   margin: auto;
+  padding: 1em;
 }
 
 .container {
@@ -82,48 +75,46 @@ body {
 
 .btn a {
   text-decoration: none;
-  color: white; 
-  background: #BA0209;
-  padding: .5em 1em;
+  color: white;
+  background: #ba0209;
+  padding: 0.5em 1em;
   border-radius: 1025px;
   margin-top: 40px;
 }
 
 .btn a:hover {
-  background: #F40009; 
+  background: #f40009;
   color: white;
 }
 
-
 .evolution {
-  font-family: 'apotek-comp', sans-serif;
-font-weight: 200;
-font-style: normal;
+  font-family: "apotek-comp", sans-serif;
+  font-weight: 200;
+  font-style: normal;
   text-align: left;
   margin-top: 80px;
   padding-left: 3px;
   border-left: 6px solid red;
-  
 }
 
 * {
- margin: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 .evolution-container {
   display: flex;
- justify-content: space-around;
+  justify-content: space-around;
 }
 
 .card {
-  width: 300px; 
-  background: #FBF2ED; 
-  padding: 1em; 
-  color: Black; 
+  width: 300px;
+  background: #fbf2ed;
+  padding: 1em;
+  color: Black;
   font-weight: 200;
-  font-family: 'apotek-comp';
+  font-family: "apotek-comp";
 }
 
 .card-flex {
@@ -131,13 +122,11 @@ font-style: normal;
 }
 
 .image-container {
-  background: #FBF2ED;
+  background: #fbf2ed;
   width: 100%;
-  height: 250px; 
+  height: 250px;
   padding: 1em;
   text-align: left;
-  
-  
 }
 
 img {
@@ -145,53 +134,53 @@ img {
   height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
-} 
+}
 
 h3 {
   margin: 1em 0;
   display: block;
-  transition: background .5s;
+  transition: background 0.5s;
   color: black;
-  
 }
 
 h3:hover {
-  background: #F40009;
+  background: #f40009;
   color: white;
-  transition: background .5s;
+  transition: background 0.5s;
   cursor: pointer;
- 
 }
 
-
 .logo2 {
-font-family: 'lust-script-display', sans-serif;
-font-size: 4em;
-font-weight: 400;
-font-style: normal;
-padding: 5px;
+  font-family: "lust-script-display", sans-serif;
+  font-size: 4em;
+  font-weight: 400;
+  font-style: normal;
+  padding: 5px;
 }
 
 .logo3 {
-font-family: 'lores-12',sans-serif;
-font-weight: 400;
-font-size: 4em;
-font-style: normal;
-padding: 5px}
+  font-family: "lores-12", sans-serif;
+  font-weight: 400;
+  font-size: 4em;
+  font-style: normal;
+  padding: 5px;
+}
 
 .logo4 {
-font-family: 'bc-alphapipe',sans-serif;
-font-weight: 400;
-font-size: 4em;
-font-style: normal;
-padding: 5px}
+  font-family: "bc-alphapipe", sans-serif;
+  font-weight: 400;
+  font-size: 4em;
+  font-style: normal;
+  padding: 5px;
+}
 
 .logo5 {
-font-family: 'Helvetica Neue', sans-serif;
-font-weight: 400;
-font-size: 4em;
-font-style: normal;
-  padding: 5px}
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 4em;
+  font-style: normal;
+  padding: 5px;
+}
 
 .img-column {
   margin-right: 10px;
@@ -207,32 +196,30 @@ font-style: normal;
   height: 50vh;
   object-fit: cover;
   margin: 0 auto;
-
+  padding: 1em;
 }
 
 .btnb {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .btnb a {
   text-decoration: none;
-  color: white; 
-  background: #BA0209;
-  padding: .5em 1em;
+  color: white;
+  background: #ba0209;
+  padding: 0.5em 1em;
   border-radius: 1025px;
-  
-  
 }
 
 .btnb a:hover {
-  background: #F40009; 
+  background: #f40009;
   color: white;
 }
 
- footer {
-   height: 100px;
-   display: flex;
+footer {
+  height: 100px;
+  display: flex;
   justify-content: space-around;
-  background: black;
-    background: #BA0209;
+  background: #ba0209;
+  margin: 0;
 }

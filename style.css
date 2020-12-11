@@ -1,0 +1,238 @@
+nav {
+  height: 50px; 
+  background: #BA0209;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+body{
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #FBF2ED;
+  color: black;
+  line-height: 1.3; 
+  text-align: center;  
+}
+
+
+
+.logo {
+font-family: cheap-pine, sans-serif;
+font-weight: 400;
+font-style: normal;
+padding: 5px;
+color: #FBF2ED;
+
+}
+
+
+
+nav ul {
+  display: flex;
+  justify-content: center; 
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0 20;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0 20px;
+  line-height: 50px;
+  /* text-transform: uppercase;*/
+  transition: background .5s;
+}
+
+nav a:hover {
+  background: #F40009;
+}
+.photo {
+  height: 100vh;
+background-image: url("https://assets.codepen.io/4985837/56c73adc2e526519008b8293.jpeg");
+ background-size: cover;
+}
+figcaption {
+  color: #F40009;
+  text-align: left;
+  padding: 10px;
+  
+ 
+}
+
+body {
+  color: black;
+  margin: auto;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white; 
+  background: #BA0209;
+  padding: .5em 1em;
+  border-radius: 1025px;
+  margin-top: 40px;
+}
+
+.btn a:hover {
+  background: #F40009; 
+  color: white;
+}
+
+
+.evolution {
+  font-family: 'apotek-comp', sans-serif;
+font-weight: 200;
+font-style: normal;
+  text-align: left;
+  margin-top: 80px;
+  padding-left: 3px;
+  border-left: 6px solid red;
+  
+}
+
+* {
+ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.evolution-container {
+  display: flex;
+ justify-content: space-around;
+}
+
+.card {
+  width: 300px; 
+  background: #FBF2ED; 
+  padding: 1em; 
+  color: Black; 
+  font-weight: 200;
+  font-family: 'apotek-comp';
+}
+
+.card-flex {
+  display: flex;
+}
+
+.image-container {
+  background: #FBF2ED;
+  width: 100%;
+  height: 250px; 
+  padding: 1em;
+  text-align: left;
+  
+  
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+} 
+
+h3 {
+  margin: 1em 0;
+  display: block;
+  transition: background .5s;
+  color: black;
+  
+}
+
+h3:hover {
+  background: #F40009;
+  color: white;
+  transition: background .5s;
+  cursor: pointer;
+ 
+}
+
+
+.logo2 {
+font-family: 'lust-script-display', sans-serif;
+font-size: 4em;
+font-weight: 400;
+font-style: normal;
+padding: 5px;
+}
+
+.logo3 {
+font-family: 'lores-12',sans-serif;
+font-weight: 400;
+font-size: 4em;
+font-style: normal;
+padding: 5px}
+
+.logo4 {
+font-family: 'bc-alphapipe',sans-serif;
+font-weight: 400;
+font-size: 4em;
+font-style: normal;
+padding: 5px}
+
+.logo5 {
+font-family: 'Helvetica Neue', sans-serif;
+font-weight: 400;
+font-size: 4em;
+font-style: normal;
+  padding: 5px}
+
+.img-column {
+  margin-right: 10px;
+  width: 50%;
+}
+
+.text-column {
+  width: 50%;
+}
+
+.banner-image {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  margin: 0 auto;
+
+}
+
+.btnb {
+    margin-top: 25px;
+}
+
+.btnb a {
+  text-decoration: none;
+  color: white; 
+  background: #BA0209;
+  padding: .5em 1em;
+  border-radius: 1025px;
+  
+  
+}
+
+.btnb a:hover {
+  background: #F40009; 
+  color: white;
+}
+
+ footer {
+   height: 100px;
+   display: flex;
+  justify-content: space-around;
+  background: black;
+    background: #BA0209;
+}
